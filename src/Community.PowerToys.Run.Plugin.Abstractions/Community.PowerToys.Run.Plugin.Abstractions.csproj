@@ -10,7 +10,7 @@
     <Authors>Henrik Lau Eriksson</Authors>
     <Description>This NuGet package simplifies the testing of PowerToys Run Plugins.
 
-It contains interfaces and wrappers of static classes from:
+It contains interfaces and wrappers for static classes from:
 
 - Wox.Infrastructure.dll
 - Wox.Plugin.dll
