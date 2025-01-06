@@ -23,6 +23,7 @@ It contains interfaces and wrappers for static classes from:
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IncludeBuildOutput>false</IncludeBuildOutput>
+    <NoWarn>NU5128;PKV0001</NoWarn>
   </PropertyGroup>
 
   <Import Project="../../Analyzers.props" />
