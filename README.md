@@ -33,7 +33,7 @@ PM> NuGet\Install-Package Community.PowerToys.Run.Plugin.Abstractions
 PackageReference:
 
 ```csproj
-<PackageReference Include="Community.PowerToys.Run.Plugin.Abstractions" Version="0.1.0" />
+<PackageReference Include="Community.PowerToys.Run.Plugin.Abstractions" Version="0.2.0" />
 ```
 
 ## Example

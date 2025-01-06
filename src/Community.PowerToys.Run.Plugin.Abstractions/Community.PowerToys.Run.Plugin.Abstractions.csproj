@@ -5,8 +5,11 @@
     <UseWPF>true</UseWPF>
     <Platforms>x64;ARM64</Platforms>
     <PlatformTarget>$(Platform)</PlatformTarget>
-    <Version>0.1.0</Version>
-    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <Version>0.2.0</Version>
+    <PackageReleaseNotes>
+- Change target framework to net9.0-windows
+- Bump Community.PowerToys.Run.Plugin.Dependencies to 0.87.1
+    </PackageReleaseNotes>
     <Authors>Henrik Lau Eriksson</Authors>
     <Description>This NuGet package simplifies the testing of PowerToys Run Plugins.
 
