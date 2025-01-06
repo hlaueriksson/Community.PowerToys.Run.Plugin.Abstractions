@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <TargetFramework>net9.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
     <Platforms>x64;ARM64</Platforms>
     <PlatformTarget>$(Platform)</PlatformTarget>
@@ -23,6 +23,7 @@ It contains interfaces and wrappers for static classes from:
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IncludeBuildOutput>false</IncludeBuildOutput>
+    <NoWarn>NU5128;PKV0001</NoWarn>
   </PropertyGroup>
 
   <Import Project="../../Analyzers.props" />
@@ -31,22 +32,23 @@ It contains interfaces and wrappers for static classes from:
     <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
     <None Include="Community.PowerToys.Run.Plugin.Abstractions.props" Pack="true" PackagePath="buildTransitive" />
+    <None Include="Community.PowerToys.Run.Plugin.Abstractions.targets" Pack="true" PackagePath="buildTransitive" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="bin\ARM64\Release\net8.0-windows\Community.PowerToys.Run.Plugin.Abstractions.dll" Pack="true" PackagePath="lib/net8.0-windows7.0/ARM64/" />
-    <None Include="bin\ARM64\Release\net8.0-windows\Community.PowerToys.Run.Plugin.Abstractions.pdb" Pack="true" PackagePath="lib/net8.0-windows7.0/ARM64/" />
-    <None Include="bin\ARM64\Release\net8.0-windows\Community.PowerToys.Run.Plugin.Abstractions.xml" Pack="true" PackagePath="lib/net8.0-windows7.0/ARM64/" />
+    <None Include="bin\ARM64\Release\net9.0-windows\Community.PowerToys.Run.Plugin.Abstractions.dll" Pack="true" PackagePath="runtimes\win-arm64\lib\net9.0" />
+    <None Include="bin\ARM64\Release\net9.0-windows\Community.PowerToys.Run.Plugin.Abstractions.pdb" Pack="true" PackagePath="runtimes\win-arm64\lib\net9.0" />
+    <None Include="bin\ARM64\Release\net9.0-windows\Community.PowerToys.Run.Plugin.Abstractions.xml" Pack="true" PackagePath="runtimes\win-arm64\lib\net9.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="bin\x64\Release\net8.0-windows\Community.PowerToys.Run.Plugin.Abstractions.dll" Pack="true" PackagePath="lib/net8.0-windows7.0/x64/" />
-    <None Include="bin\x64\Release\net8.0-windows\Community.PowerToys.Run.Plugin.Abstractions.pdb" Pack="true" PackagePath="lib/net8.0-windows7.0/x64/" />
-    <None Include="bin\x64\Release\net8.0-windows\Community.PowerToys.Run.Plugin.Abstractions.xml" Pack="true" PackagePath="lib/net8.0-windows7.0/x64/" />
+    <None Include="bin\x64\Release\net9.0-windows\Community.PowerToys.Run.Plugin.Abstractions.dll" Pack="true" PackagePath="runtimes\win-x64\lib\net9.0" />
+    <None Include="bin\x64\Release\net9.0-windows\Community.PowerToys.Run.Plugin.Abstractions.pdb" Pack="true" PackagePath="runtimes\win-x64\lib\net9.0" />
+    <None Include="bin\x64\Release\net9.0-windows\Community.PowerToys.Run.Plugin.Abstractions.xml" Pack="true" PackagePath="runtimes\win-x64\lib\net9.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Community.PowerToys.Run.Plugin.Dependencies" Version="0.83.0" />
+    <PackageReference Include="Community.PowerToys.Run.Plugin.Dependencies" Version="0.87.1" />
   </ItemGroup>
 
 </Project>
