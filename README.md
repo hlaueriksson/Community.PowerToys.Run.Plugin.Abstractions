@@ -1,7 +1,9 @@
 # Community.PowerToys.Run.Plugin.Abstractions
 
 [![build](https://github.com/hlaueriksson/Community.PowerToys.Run.Plugin.Abstractions/actions/workflows/build.yml/badge.svg)](https://github.com/hlaueriksson/Community.PowerToys.Run.Plugin.Abstractions/actions/workflows/build.yml)
+[![Snyk Security Scan](https://github.com/hlaueriksson/Community.PowerToys.Run.Plugin.Abstractions/actions/workflows/snyk.yml/badge.svg)](https://github.com/hlaueriksson/Community.PowerToys.Run.Plugin.Abstractions/actions/workflows/snyk.yml)
 [![Community.PowerToys.Run.Plugin.Abstractions](https://img.shields.io/nuget/v/Community.PowerToys.Run.Plugin.Abstractions.svg?label=Community.PowerToys.Run.Plugin.Abstractions)](https://www.nuget.org/packages/Community.PowerToys.Run.Plugin.Abstractions)
+[![Mentioned in Awesome PowerToys Run Plugins](https://awesome.re/mentioned-badge.svg)](https://github.com/hlaueriksson/awesome-powertoys-run-plugins)
 
 This NuGet package is intended for PowerToys Run community plugins authors.
 
