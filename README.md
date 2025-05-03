@@ -1,5 +1,31 @@
 # Community.PowerToys.Run.Plugin.Abstractions
 
+TODO:
+Helper
+ ShellRunAsType
+ NonNull
+ RequireNonNull
+ ValidateDataDirectory
+ ValidateDirectory
+ Formatted
+DefaultBrowserInfo
+ MSEdgeName
+ UpdateTimeout
+ MSEdgePath
+ MSEdgeArgumentsPattern
+ Path
+ IconPath
+ Name
+ ArgumentsPattern
+ IsDefaultBrowserSet
+PluginInitContext
+ PluginMetadata
+PluginMetadata
+ ExecuteFilePath
+ PluginDirectory
+PluginPair
+StringMatcher
+
 [![build](https://github.com/hlaueriksson/Community.PowerToys.Run.Plugin.Abstractions/actions/workflows/build.yml/badge.svg)](https://github.com/hlaueriksson/Community.PowerToys.Run.Plugin.Abstractions/actions/workflows/build.yml)
 [![Snyk Security Scan](https://github.com/hlaueriksson/Community.PowerToys.Run.Plugin.Abstractions/actions/workflows/snyk.yml/badge.svg)](https://github.com/hlaueriksson/Community.PowerToys.Run.Plugin.Abstractions/actions/workflows/snyk.yml)
 [![Community.PowerToys.Run.Plugin.Abstractions](https://img.shields.io/nuget/v/Community.PowerToys.Run.Plugin.Abstractions.svg?label=Community.PowerToys.Run.Plugin.Abstractions)](https://www.nuget.org/packages/Community.PowerToys.Run.Plugin.Abstractions)
