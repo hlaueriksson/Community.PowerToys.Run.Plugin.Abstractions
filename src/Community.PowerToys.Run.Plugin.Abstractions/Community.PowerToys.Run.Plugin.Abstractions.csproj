@@ -7,8 +7,7 @@
     <PlatformTarget>$(Platform)</PlatformTarget>
     <Version>0.2.0</Version>
     <PackageReleaseNotes>
-- Change target framework to net9.0-windows
-- Bump Community.PowerToys.Run.Plugin.Dependencies to 0.87.1
+- Bump Community.PowerToys.Run.Plugin.Dependencies to 0.96.1
     </PackageReleaseNotes>
     <Authors>Henrik Lau Eriksson</Authors>
     <Description>This NuGet package simplifies the testing of PowerToys Run Plugins.
@@ -51,7 +50,7 @@ It contains interfaces and wrappers for static classes from:
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Community.PowerToys.Run.Plugin.Dependencies" Version="0.87.1" />
+    <PackageReference Include="Community.PowerToys.Run.Plugin.Dependencies" Version="0.96.1" />
   </ItemGroup>
 
 </Project>
